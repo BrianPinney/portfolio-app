@@ -39,9 +39,12 @@ export default function AboutMe(){
         <Row>
             <Col>
             <h2>Projects</h2>
-            <p>I am excited to start on an app project I had shortly after purchase my own</p>
+            <p>I am excited to get started on an app idea I had shortly after purchasing my van.When looking for areas to visit I realized there wasn't a way to locate places to park in advance that suited my needs and wants. </p>
             </Col>
-            <Col>6</Col>
+            <Col>
+            <h2>After Boca Code</h2>
+            <p>My ideal work environment would be anywhere with a strong network connection and be accessable with a vehicle. I would love to go see the rest of this and surrounding countries in my van while maintaining a job that helps finacially sustains this lifestyle.</p>
+            </Col>
         </Row>
     </Container> 
     </>
