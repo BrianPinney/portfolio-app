@@ -5,7 +5,7 @@ import Quote from './components/Quote';
 import PicCarousel from './components/PicCarousel';
 import Grid from './components/Grid';
 import Footer from './components/Footer';
-
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
