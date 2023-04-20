@@ -11,7 +11,7 @@ export default function About () {
           </Col>
           <Col>
           <h1 className="mt-3">Brian Pinney</h1>
-                <p>I am a person of many hobbies and interests. Craft beer    Brewing, Bushcrafting, Bladesmithing, WhiteWater Kayaking,
+                <p>I have many hobbies and interests. Craft beer    Brewing, Bushcrafting, Bladesmithing, WhiteWater Kayaking,
                 Camping, Gaming, biking (motor, mountain, and road). I am also a tech enthusiast. All my hobbies involve a certain level of 
                 technology and as time goes by, I find myself wanting and learning more about different technologies that revolve around all
                 the things I love to do.

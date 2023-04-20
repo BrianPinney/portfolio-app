@@ -7,7 +7,6 @@ export default function Quote(){
                 <Row className="text-center">
                     <Col>
                     <q><em>If you stare in your rearview mirror, your future will run you over.</em></q>
-                    <p>-Brian Pinney-</p>
                     </Col>
                 </Row>
             </Container>

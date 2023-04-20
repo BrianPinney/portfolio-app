@@ -3,8 +3,43 @@ body {
     color: white;
 }
 
-a:link {
-color: cyan;
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.container {
+padding: 40px;
+}
+
+
+.quote-container p{
+    font-size: clamp(23px, 4vw, 26px);
+    font-weight: 700;
+}
+
+.quote-container q{
+    font-size: 105%;
+}
+
+.carousel-container {
+    padding: 15px;
+}
+
+.grid-container {
+background-color: cyan;
+
+}
+
+.grid-container h2 {
+    color: rgb(65, 55, 55);
+}
+
+.grid-container p {
+    color: black;
 }
 
 footer {
