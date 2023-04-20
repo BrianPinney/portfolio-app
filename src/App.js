@@ -1,14 +1,21 @@
 
-import './App.css';
-import Photos from './components/Photos';
-import AboutMe from './components/Portfolio';
+import './App.css'
+import About from './components/About';
+import Quote from './components/Quote';
+import PicCarousel from './components/PicCarousel';
+import Grid from './components/Grid';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Photos/>
-        <AboutMe/>
+        <About />
+        <Quote />
+        <PicCarousel />
+        <Grid />
+        <Footer />
       </header>
     </div>
   );
