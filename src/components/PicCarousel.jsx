@@ -1,12 +1,17 @@
-import { Container, Row, Col, Carousel } from "react-bootstrap";
+import  Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Carousel from "react-bootstrap/Carousel";
 
+ 
+ 
 export default function PicCarousel() {
     return (
       <section>
         <Container className="carousel-container">
           <Row>
-            <Col className="p-0">
-              <Carousel fade>
+            <Col sm={12} className="p-0">
+              <Carousel>
                 <Carousel.Item>
                   <img src="/images/pic1.jpg"
                     className="d-block w-100"

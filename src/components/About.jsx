@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
-import { Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+
 export default function About () {
   return (
     <main>
