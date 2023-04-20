@@ -1,8 +1,8 @@
-import  Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
-
+import "bootstrap/dist/css/bootstrap.min.css"
  
  
 export default function PicCarousel() {
@@ -10,7 +10,7 @@ export default function PicCarousel() {
       <section>
         <Container className="carousel-container">
           <Row>
-            <Col sm={12} className="p-0">
+            <Col className="p-0">
               <Carousel>
                 <Carousel.Item>
                   <img src="/images/pic1.jpg"
@@ -18,7 +18,6 @@ export default function PicCarousel() {
                     alt="slide 1" />
                     <Carousel.Caption>
                   <h2>Hiking through the woods</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -28,7 +27,6 @@ export default function PicCarousel() {
                     alt="slide 2" />
                     <Carousel.Caption>
                   <h2>Camping during paddle class weekend</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -38,7 +36,6 @@ export default function PicCarousel() {
                     alt="slide 3" />
                     <Carousel.Caption>
                   <h2>Riding my Onewheel through the city</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -48,7 +45,6 @@ export default function PicCarousel() {
                     alt="slide 4" />
                     <Carousel.Caption>
                   <h2>Knife blank</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -58,7 +54,6 @@ export default function PicCarousel() {
                     alt="slide 5" />
                     <Carousel.Caption>
                   <h2>Unfinished Scales</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -68,7 +63,6 @@ export default function PicCarousel() {
                     alt="slide 6" />
                     <Carousel.Caption>
                   <h2>Fininshed Knife</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -78,7 +72,6 @@ export default function PicCarousel() {
                     alt="slide 7" />
                     <Carousel.Caption>
                   <h2>Bushcraafting/ survival training</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -88,7 +81,6 @@ export default function PicCarousel() {
                     alt="slide 8" />
                     <Carousel.Caption>
                   <h2>Nano Brewery</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -98,7 +90,6 @@ export default function PicCarousel() {
                     alt="slide 9" />
                     <Carousel.Caption>
                   <h2>Random Cave Crawling</h2>
-                    <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
