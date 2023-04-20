@@ -1,57 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Sedgwick+Ave+Display&display=swap');
 
 body {
-    background-image: url(/public/images/montainscape.png);
+    background-image: url("../public/images/montainscape.png");
     background-color: rgb(40, 66, 82);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-family: 'Orbitron', sans-serif;
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
 h1 {
     font-weight: 900;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 h2 {
     font-weight: 700;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .container {
 padding: 40px;
+color: white;
+font-family: 'Sedgwick Ave Display', cursive;
 }
 
 
 .quote-container p {
     font-size: clamp(23px, 4vw, 26px);
     font-weight: 700;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .quote-container q {
     font-size: 105%;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .carousel-container {
     padding: 15px;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .grid-container {
 background-color: cyan;
+opacity: 70%;
+font-family: 'Sedgwick Ave Display', cursive;
 
 }
 
 .grid-container h2 {
-    color: rgb(65, 55, 55);
+    color: rgb(166, 30, 184);
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 .grid-container p {
-    color: black;
+    color: rgb(166, 30, 184);
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.scroll-button {
+    opacity: 70%;
+    background-color: rgb(166, 30, 184);
 }
 
 footer {
+    padding: 0;
     background-color: black;
-    color: cyan;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
+
+footer .container {
+    padding: 0;
+}
+
 
 
