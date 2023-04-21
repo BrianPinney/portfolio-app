@@ -64,11 +64,6 @@ font-family: 'Sedgwick Ave Display', cursive;
     font-family: 'Sedgwick Ave Display', cursive;
 }
 
-.scroll-button {
-    opacity: 70%;
-    background-color: rgb(166, 30, 184);
-}
-
 footer {
     padding: 0;
     background-color: black;

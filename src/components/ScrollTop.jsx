@@ -28,8 +28,6 @@ return (
 	<Button className='scroll-button' onClick={scrollToTop}>
         ^
 	</Button>
-	
-	
 );
 }
 
